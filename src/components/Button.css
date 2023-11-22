@@ -1,0 +1,42 @@
+.h-all{
+position: relative;
+}
+.h-all:hover .hint-text{
+display: block;
+}
+.btns{
+    margin: 20px auto;
+
+}
+button{
+    width: 200px;
+    display: block !important;
+    color: white;
+    margin: 12px auto;
+    background-color: blue;
+    border: none;
+    font-size: 17px;
+}
+.red-btn{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+.italic{
+    font-style: italic;
+}
+.hint-text{
+    display: none;
+    margin-left: 10px;
+
+    position: absolute;
+    top: 8px ;
+    transform: 0.3s;
+    left: 44%;
+    width: 10%;
+
+    background-color: aqua;
+    padding: 2px 4px;
+}
+.hint{
+}
